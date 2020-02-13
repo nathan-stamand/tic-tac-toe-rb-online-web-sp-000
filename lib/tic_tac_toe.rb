@@ -97,7 +97,7 @@ end
 
 def play(board)
   
-  until over?(board)
+  while !over?(board)
     puts "Next player's turn!"
     turn(board)
   end
